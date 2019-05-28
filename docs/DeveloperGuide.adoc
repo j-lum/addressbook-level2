@@ -3,6 +3,7 @@
 :imagesDir: images
 :stylesDir: stylesheets
 :experimental:
+:source-highlighter: coderay
 
 == Setting up
 
@@ -76,3 +77,8 @@ OSes. Convert the ACTUAL.TXT to the format used by your OS using some https://kb
 * Problem: Test fails during the very first time. +
 Solution: The output of the very first test run could be slightly different because the program
 creates a new storage file. Tests should pass from the 2nd run onwards.
+
+[source, java]
+----
+include::../src/seedu/addressbook/commands/AddCommand.java[]
+----
